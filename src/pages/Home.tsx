@@ -1,24 +1,32 @@
-import Footer from '../footer/Footer'
-import Header from '../header/Header'
+import { div } from "motion/react-client";
+import Footer from "../footer/Footer";
+import Header from "../header/Header";
+import Carousel from "@/utils/Carousel";
 
 const Home = () => {
   return (
-    <div className='w-full h-auto '>
-        <Header/>
-        <Tasks/>
-        <Footer/>
-
+    <div className="w-full h-auto ">
+      <Header />
+      <Tasks />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
 
 const Tasks = () => {
-    return (
-        <div className='bg-pink-100 w-full h-auto'>
-fgrt
-        </div>
-    )
-    
-}
+  return (
+    <div className="w-full md:w-[70%] h-auto mx-auto py-5">
+      <Carousel />
+    </div>
+  );
+};
+
+const Task = () => {
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
+};

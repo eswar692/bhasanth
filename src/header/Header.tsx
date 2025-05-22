@@ -1,13 +1,9 @@
-
-
 const Header = () => {
-  return(
-    <div className="w-full h-16 bg-red-100">
-            <div>
-        <h1 className="text-2xl font-bold text-gray-800">Just</h1>
-            </div>
+  return (
+    <div className="w-full h-13 shadow-lg flex items-center justify-center">
+      <h1 className="text-2xl font-bold text-gray-800">Just</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
