@@ -7,7 +7,31 @@
     <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="root"></div>
+   
+
+    <div id="google_translate_element" style="display: none;"></div>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate Element -->
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'en',
+        includedLanguages: 'en,te', // Add more like hi, ta, kn if needed
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      },
+      'google_translate_element'
+    );
+  }
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+
   </body>
 </html>

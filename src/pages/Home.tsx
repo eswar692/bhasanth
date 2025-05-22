@@ -17,8 +17,10 @@ export default Home;
 
 const Tasks = () => {
   return (
-    <div className="w-full md:w-[70%] h-auto mx-auto py-5">
+    <div className="w-full md:w-[70%] h-auto mx-auto py-5 ">
       <Carousel />
+      <h2 className="text-center mt-5 text-2xl">Best Astrological Services</h2>
+      <Task />
     </div>
   );
 };
