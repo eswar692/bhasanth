@@ -30,7 +30,7 @@ function Carousel() {
       </div>
       <div className="absolute inset-0 flex items-center justify-center p-4 w-full h-full ">
         <h1 className="text-2xl text-center  w-auto bg-red-500 py-1 px-2 rounded">
-          jbhb
+          Best Astrological Guruji
         </h1>
       </div>
     </div>
